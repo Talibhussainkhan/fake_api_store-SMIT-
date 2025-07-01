@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="nav-logo.png" type="image/x-icon">
+    <title>Platzi Fake Store </title>
+</head>
+<body class="font-sans">
+  <nav class="bg-[#F6F7F9] pt-[12px] pb-[12px] pr-[24px] pl-[22px] flex gap-6 items-center border-b border-gray-100">
+   <img src="nav-logo.png" alt="nav-logo" class="h-10 w-10">
+   <h1 class="text-lg md:text-2xl font-bold text-[#3D50F5]">Platzi Fake Store API</h1>
+  </nav>
+  <main class="p-[24px]">
+    <div class="w-full max-w-6xl mx-auto">
+        <!-- hero section -->
+        <div class="md:min-h-[370px] md:pt-[43px] md:pb-[43px] flex flex-col md:flex-row items-center justify-between">
+
+            <div class="flex flex-col">
+                <h1 class=" text-2xl md:text-[64px] font-bold">Platzi Fake Store API</h1>
+                <p class=" md:text-[20px] md:leading-8 text-[#353841]">The perfect API solution for your e-commerce or shopping <br/> website prototype.</p>
+            </div>
+            <div class="flex items-center pt-5 md:pt-0">
+                <img src="hero-section-image.webp" alt="hero-image">
+            </div>
+        </div>
+
+        <!-- Product Section -->
+         <div>
+            <h1 class=" text-xl mt-3 md:mt-0 md:text-4xl font-bold">Products</h1>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-10 md:p-4" id="productDiv"></div>
+         </div>
+
+         <!-- user section -->
+    <div class="pb-10">
+     <h1 class=" text-xl mt-5 mb-4 md:text-4xl font-bold">Users</h1>
+     <div class="flex gap-2" id="userDiv">
+     </div>
+    </div>
+    
+    </div>
+  </main>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
